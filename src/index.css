@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap");
+
+:root {
+  --color-purple: hsl(259, 100%, 65%);
+  --light-red: hsl(0, 100%, 67%);
+  --white: hsl(0, 0%, 100%);
+  --off-white: hsl(0, 0%, 94%);
+  --light-grey: hsl(0, 0%, 86%);
+  --smokey-grey: hsl(0, 1%, 44%);
+  --off-black: hsl(0, 0%, 8%);
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 15px;
+}
+
+@media (min-width: 576px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/* inputs font size 32px */
+
+.app-container {
+  background-color: var(--light-grey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-container {
+  background-color: var(--white);
+  padding: 1rem;
+  border-radius: 1rem 1rem 3rem;
+  width: 90%;
+  max-width: 410px;
+}
+
+.input-elements-container {
+  display: flex;
+}
+
+.input-element {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin: 0.5rem;
+}
+
+.input-element label {
+  font-size: 0.6rem;
+  color: var(--smokey-grey);
+  letter-spacing: 2px;
+  margin-bottom: 0.4em;
+}
+
+.input-element input {
+  height: 2.5rem;
+  padding: 0.5rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  border-radius: 3px;
+  border: solid 1px var(--light-grey);
+  outline: none;
+  white-space: nowrap;
+  word-spacing: 10px;
+  color: var(--off-black);
+}
+
+.input-element input:active,
+.input-element input:focus,
+.input-element input:active:focus,
+.input-element input:hover {
+  border-color: var(--color-purple);
+  caret-color: var(--color-purple);
+}
+
+.button-element-container {
+  position: relative;
+  margin: 2rem 0;
+  width: 98%;
+}
+
+.button-element-container button {
+  position: absolute;
+  top: -1850%;
+  right: 43.2%;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  height: 3rem;
+  width: 3rem;
+  padding: 0.5rem;
+}
+
+.button-element-container hr {
+  border: solid 1px var(--light-grey);
+}
+
+@media (min-width: 768px) {
+  .button-element-container button {
+    right: 0;
+  }
+}
+
+.button-element-container button img {
+  height: 100%;
+  width: 100%;
+}
+
+.error-msg {
+  color: var(--light-red);
+  font-size: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.result-container {
+  margin: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.result-container h1 {
+  margin: 0;
+  padding: 0;
+  color: var(--off-black);
+  line-height: 1;
+}
+
+.result-container h1 span {
+  color: var(--color-purple);
+}
