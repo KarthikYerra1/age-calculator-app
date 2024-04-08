@@ -16,6 +16,7 @@ const App = () => {
       start: dob,
       end: todayDate,
     });
+    console.log(result);
     console.log(typeof dayDifference);
     setDayDifference(result.days);
     setMonthDifference(result.months);
