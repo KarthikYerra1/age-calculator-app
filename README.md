@@ -1,6 +1,6 @@
 # Frontend Mentor - Age calculator app solution
 
-This is a solution to the [Age calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q). 
+This is a solution to the [Age calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q).
 
 ## Table of contents
 
@@ -39,16 +39,17 @@ Users should be able to:
 ### Screenshot
 
 ## Mobile Preview
+
 ![Mobile View](./src/assets/images/Mobile.png)
 
 ## Desktop Preview
-![Desktop View](./src/assets/images/Desktop.png)
 
+![Desktop View](./src/assets/images/Desktop.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Click Here](https://www.frontendmentor.io/solutions/age-calculator-app-XmgvWMgEvc)
+- Live Site URL: [Click Here](https://karthikyerra1.github.io/age-calculator-app/)
 
 ## My process
 
@@ -60,15 +61,11 @@ Users should be able to:
 - [React](https://reactjs.org/) - JS library
 - [Vite](https://vite.dev/) - Package Bundler
 
-
-
 ### Useful resources
 
-- [date-fns package](https://date-fns.org/docs/Getting-Started) - This helped me to simplify the project code to calculate the age.  I really liked this pattern and will use it going forward.
+- [date-fns package](https://date-fns.org/docs/Getting-Started) - This helped me to simplify the project code to calculate the age. I really liked this pattern and will use it going forward.
 
 ## Author
 
 - Website - [Karthik Yerra]()
 - Frontend Mentor - [@KarthikYerra1](https://www.frontendmentor.io/profile/KarthikYerra1)
-
-
